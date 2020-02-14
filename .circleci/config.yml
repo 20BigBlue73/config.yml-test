@@ -2,8 +2,8 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk
-      working_directory: ~/repo
+      - image: circleci/openjdk:8-jdk-stretch
+      
       
     steps:
       - checkout
